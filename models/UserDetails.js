@@ -39,7 +39,7 @@ const UserSchema = new Schema({
     maxlength: 10,
   },
   pinCode: {
-    type: Number,
+    type: String,
     required: true,
     minlength: [6, "Must be 6 "],
     maxlength: [6, "Must be 6 "],
